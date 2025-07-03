@@ -1,8 +1,8 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://edge-sandbox-graph.adobe.io/api/814bb75c-05f8-4539-a5cc-95b9b875e3cd/graphql",
-      "commerce-endpoint": "https://edge-sandbox-graph.adobe.io/api/814bb75c-05f8-4539-a5cc-95b9b875e3cd/graphql",
+      "commerce-core-endpoint": " "https://edge-sandbox-graph.adobe.io/api/b692ca34-7694-42d5-bf4e-8cb84f68ce3b/graphql",
+      "commerce-endpoint": " "https://edge-sandbox-graph.adobe.io/api/b692ca34-7694-42d5-bf4e-8cb84f68ce3b/graphql",
       "headers": {
         "cs": {
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
