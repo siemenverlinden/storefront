@@ -1,16 +1,16 @@
 {
   "version": 1,
   "code": {
-    "owner": "{ORG}",
-    "repo": "{REPO}",
+    "owner": "siemenverlinden",
+    "repo": "storefront",
     "source": {
       "type": "github",
-      "url": "https://github.com/{ORG}/{REPO}"
+      "url": "https://github.com/siemenverlinden/storefront"
     }
   },
   "content": {
     "source": {
-      "url": "{CONTENT_SOURCE}",
+      "url": "https://drive.google.com/drive/folders/1vnMiG-ocQWJ6ChHUmOxuDMG5Mbe8DFjV",
       "type": "onedrive"
     }
   },
@@ -19,39 +19,39 @@
   },
   "cdn": {
     "live": {
-      "host": "main--{SITE}--{ORG}.aem.live"
+      "host": "main--storefront--siemenverlinden.aem.live"
     },
     "preview": {
-      "host": "main--{SITE}--{ORG}.aem.page"
+      "host": "main--storefront--siemenverlinden.aem.page"
     }
   },
   "headers": {},
   "public": {
     "default": {
-      "commerce-core-endpoint": "{ENDPOINT}",
-      "commerce-endpoint": "{CS_ENDPOINT}",
+      "commerce-core-endpoint": "https://edge-sandbox-graph.adobe.io/api/b692ca34-7694-42d5-bf4e-8cb84f68ce3b/graphql",
+      "commerce-endpoint": "https://edge-sandbox-graph.adobe.io/api/b692ca34-7694-42d5-bf4e-8cb84f68ce3b/graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
-          "Magento-Store-Code": "{STORE_CODE}",
-          "Magento-Store-View-Code": "{STORE_VIEW_CODE}",
-          "Magento-Website-Code": "{WEBSITE_CODE}",
-          "x-api-key": "{COMMERCE_API_KEY}",
-          "Magento-Environment-Id": "{COMMERCE_ENVIRONMENT_ID}"
+          "Magento-Store-Code": "vaimo_be",
+          "Magento-Store-View-Code": "vaimo_be_nl",
+          "Magento-Website-Code": "vaimo",
+          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
+          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Production",
-        "store-id": "{STORE_ID}",
+        "store-id": "1",
         "store-name": "Main Website Store",
         "store-url": "{DOMAIN}",
-        "store-view-id": "{STORE_VIEW_ID}",
+        "store-view-id": "https://main--storefront--siemenverlinden.aem.live/",
         "store-view-name": "Default Store View",
-        "website-id": "{WEBSITE_ID}",
+        "website-id": "1",
         "website-name": "Main Website"
       },
       "plugins": {
@@ -73,7 +73,7 @@
         "environments": [
           "edit"
         ],
-        "url": "https://main--{SITE}--{ORG}.aem.live/tools/picker/dist/index.html",
+        "url": "https://main--storefront--siemenverlinden.aem.live/tools/picker/dist/index.html",
         "isPalette": true,
         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
       },
@@ -83,7 +83,7 @@
         "environments": [
           "edit"
         ],
-        "url": "https://main--{SITE}--{ORG}.aem.live/tools/segments/dist/index.html",
+        "url": "https://main--storefront--siemenverlinden.aem.live/tools/segments/dist/index.html",
         "isPalette": true,
         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
       }
@@ -93,7 +93,7 @@
     "admin": {
       "role": {
         "config_admin": [
-          "{ADMIN_USER_EMAIL}"
+          "siemen.verlinden@vaimo.com"
         ]
       },
       "requireAuth": "auto"
