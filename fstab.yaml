@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: https://content.da.live/siemenverlinden/storefront/
+    url: https://drive.google.com/drive/folders/1vnMiG-ocQWJ6ChHUmOxuDMG5Mbe8DFjV
     type: markup
 
 folders:
